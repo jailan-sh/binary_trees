@@ -1,3 +1,2 @@
 rm {9..18}-main.c
-rm 10-depth 11-size 17-sibling 16-perfect 12-leaves 15-full 18-uncle 
-rm 14-balance 13-nodes 
+rm 10-depth 11-size  12-leaves  18-uncle 14-balance 13-nodes 
