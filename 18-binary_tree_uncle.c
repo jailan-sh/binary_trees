@@ -8,9 +8,10 @@
 
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
-	if (node == NULL || node->parent == NULL || node->parent->parent == NULL)
+	binary_tree_t *grand = node->parent->parent;
+
+	if (!node || !node->parent || !grand || !grand->left || !grand->right)
 		return (NULL);
-	if (node == node->parent->left)
-		return (node->parent->parent->left);
-	return (node->parent->parent->right);
-}
+	if (grand->left == node->parent)
+		return (grand->right);
+	return (grand->left);
