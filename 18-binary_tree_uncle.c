@@ -14,5 +14,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 		return (NULL);
 	if (grand->left == node->parent)
 		return (grand->right);
-	return (grand->left);
+	else
+		return (grand->left);
 }
