@@ -15,3 +15,4 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	if (grand->left == node->parent)
 		return (grand->right);
 	return (grand->left);
+}
