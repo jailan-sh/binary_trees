@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-#include "binary_trees.h"
-
 /**
  * *binary_tree_p_u - to get parent node brother
  * @node : parent node of checked node
