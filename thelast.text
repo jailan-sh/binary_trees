@@ -1,0 +1,2 @@
+rm {9..18}-main.c
+rm 10-depth 11-size  12-leaves  18-uncle 14-balance 13-nodes 
